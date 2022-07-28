@@ -22,9 +22,11 @@ Test cases
 ==========
 Your code should pass the following test cases.
 Note that it may also be run against hidden test cases not shown here.
+
 -- Python cases --
 Input: solution.solution('15')
 Output: 5
+
 Input: solution.solution('4')
 Output: 2
 """
