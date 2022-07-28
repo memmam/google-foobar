@@ -12,6 +12,22 @@ Write a program that counts how many salutes are exchanged during a typical walk
 Each hallway string will contain three different types of characters: '>', an employee walking to the right; '<', an employee walking to the left; and '-', an empty space. Every employee walks at the same speed either to right or to the left, according to their direction. Whenever two employees cross, each of them salutes the other. They then continue walking until they reach the end, finally leaving the hallway. In the above example, they salute 10 times.
 
 Write a function answer(s) which takes a string representing employees walking along a hallway and returns the number of times the employees will salute. s will contain at least 1 and at most 100 characters, each one of -, >, or <.
+
+Test cases
+==========
+Your code should pass the following test cases.
+Note that it may also be run against hidden test cases not shown here.
+
+-- Python cases --
+Input:
+solution.solution(["1.11", "2.0.0", "1.2", "2", "0.1", "1.2.1", "1.1.1", "2.0"])
+Output:
+0.1,1.1.1,1.2,1.2.1,1.11,2,2.0,2.0.0
+
+Input:
+solution.solution(["1.1.2", "1.0", "1.3.3", "1.0.12", "1.0.2"])
+Output:
+1.0,1.0.2,1.0.12,1.1.2,1.3.3
 """
 
 def solution(s):
