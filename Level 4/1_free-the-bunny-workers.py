@@ -1,7 +1,6 @@
 """
 Free the Bunny Workers
 ======================
-
 You need to free the bunny workers before Commander Lambda's space station explodes! Unfortunately, the Commander was very careful with the highest-value workers -- they all work in separate, maximum-security work rooms. The rooms are opened by putting keys into each console, then pressing the open button on each console simultaneously. When the open button is pressed, each key opens its corresponding lock on the work room. So, the union of the keys in all of the consoles must be all of the keys. The scheme may require multiple copies of one key given to different minions.
 
 The consoles are far enough apart that a separate minion is needed for each one. Fortunately, you have already relieved some bunnies to aid you - and even better, you were able to steal the keys while you were working as Commander Lambda's assistant. The problem is, you don't know which keys to use at which consoles. The consoles are programmed to know which keys each minion had, to prevent someone from just stealing all of the keys and using them blindly. There are signs by the consoles saying how many minions had some keys for the set of consoles. You suspect that Commander Lambda has a systematic way to decide which keys to give to each minion such that they could use the consoles.
@@ -32,10 +31,6 @@ Finally, if you had 3 bunnies and required 2 of them to open the cell, then any 
 
 Test cases
 ==========
-Your code should pass the following test cases.
-Note that it may also be run against hidden test cases not shown here.
-
--- Python cases --
 Input:
 solution.solution(2, 1)
 Output:
